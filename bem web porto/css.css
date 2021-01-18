@@ -1,0 +1,157 @@
+/* *{
+    border: 1px solid black;
+} */
+html{
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    background-color: white;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    height: 40px;
+    background: #F28641;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.header1 {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.header1 .circle{
+    height : 20px;
+    width : 20px;
+    border-radius: 50%;
+    background-color: #F28641;
+    margin-right: 20px;
+}
+.header1 h3{
+    font-weight: bold;
+}
+.header2{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.header2 h3{
+    color: #F28641;
+}
+.header2 .circle{
+    height : 20px;
+    width : 20px;
+    border-radius: 50%;
+    background-color: #c4c4c4;
+    margin-right: 20px;
+}
+header p {
+    color:white;
+    list-style: none;
+    margin: 0px 20px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+.bg1{
+    background-image: url("d37e995b0cd355ea7fb9595b2abde7e4.jpg");
+    background-position: left;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+}
+.bg1 img {
+    width: 170px;
+    margin: 30px 0px;
+}
+article{
+    width: 74%;
+}
+.top{
+    list-style: #F28641;
+}
+.image img{
+    width: 400px;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.image p{
+    width: 400px;
+}
+.intro li, .porto li{
+    list-style: none;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+.about{
+    width: 49%;
+    margin-left: 50px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+}
+.akun{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.akun a{
+    text-decoration: none;
+    color: #F28641;
+}
+.akun img{
+    width: 30px;
+    margin-right: 10px;
+}
+#garismiring {
+    width: 98%;
+    height: 5px;
+    background-color: #c4c4c4;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+#garismiring2 {
+    width: 80%;
+    height: 3px;
+    background-color: #c4c4c4;
+    /* margin: 0px 5px; */
+}
+#garislurus {
+    height: 200px;
+    width: 5px;
+    background-color: #c4c4c4;
+    margin-top: 15px;
+}
+.profil h2{
+    color: #F28641;
+    font-size: 20px;
+}
+.profil h1{
+    color: #F28641;
+    font-size: 25px;
+}
+.profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
